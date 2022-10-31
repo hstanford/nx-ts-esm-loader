@@ -5,7 +5,7 @@ import { resolve as tsNodeResolve } from "ts-node/esm";
 
 export { load, getFormat, transformSource } from "ts-node/esm";
 
-const require = createRequire(import.meta.url);
+const require = createRequire(process.cwd());
 
 let otherPaths = [];
 let nxBaseDir = "";
