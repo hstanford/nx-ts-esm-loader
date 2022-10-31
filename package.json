@@ -1,6 +1,6 @@
 {
   "name": "nx-ts-esm-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Module loader to allow running ESM-targeted node scripts importing from libraries in an NX workspace",
   "main": "loader.mjs",
   "scripts": {
