@@ -1,0 +1,30 @@
+{
+  "name": "nx-ts-esm-loader",
+  "version": "0.0.1",
+  "description": "Module loader to allow running ESM-targeted node scripts importing from libraries in an NX workspace",
+  "main": "loader.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hstanford/nx-ts-esm-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "esm",
+    "nx",
+    "typescript",
+    "node"
+  ],
+  "author": "Henry Stanford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hstanford/nx-ts-esm-loader/issues"
+  },
+  "homepage": "https://github.com/hstanford/nx-ts-esm-loader#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
